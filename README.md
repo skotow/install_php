@@ -7,6 +7,7 @@ Install php8.2 on centos7
   Check if any old php is already installed
   if any installed dissable remi for old version php 
 5. sudo yum-config-manager --disable remi-php{PHP_VERSION}
+6. sudo yum remove php php-common php-cli
 if yum-config-manager not found then install yum utils: sudo yum install yum-utils
 
 6.sudo yum-config-manager --disable remi-php{PHP_VERSION}
